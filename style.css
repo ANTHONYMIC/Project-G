@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.295);
+  background-image: url(img/y.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+}
+
+header {
+  text-align: left;
+  height: 118px;
+}
+
+h1 {
+  color: aquamarine;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  float: left;
+  text-align: left;
+}
+
+nav {
+  float: left;
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  padding-left: 40px;
+  padding-inline: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+main {
+  height: 350px;
+  padding-top: 110px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.37);
+}
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.maps {
+  padding-bottom: 50px;
+}
+
+.search {
+  width: 320px;
+  float: left;
+  margin-left: 150px;
+  margin-top: 15px;
+}
+
+.srch {
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid red;
+  margin-top: 13px;
+  font-size: 15px;
+  border-right: none;
+  float: left;
+  padding: 10px;
+  color: white;
+  border-radius: 50px;
+}
+
+.btn {
+  width: 100px;
+  background-color: aquamarine;
+  color: black;
+  height: 40px;
+  border-radius: 70px;
+  float: right;
+  margin-top: 15px;
+}
